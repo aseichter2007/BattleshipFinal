@@ -8,8 +8,8 @@ namespace Battleship
     {
         public string empty = "░";
         public string ship = "█";
-        public string hitship = "#";
-        public string miss = "0";
+        public string hitship = "◘";
+        public string miss = "֍";
         public string [,] playerGameBoard;
         public string[,] opponentGameBoard;
         public Battleship battleship;
